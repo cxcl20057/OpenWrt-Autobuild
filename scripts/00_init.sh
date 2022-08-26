@@ -8,9 +8,9 @@ __get_openwrt() {
 }
 
 __get_immortalwrt() {
-    git clone -b master --single-branch https://github.com/immortalwrt/immortalwrt immortalwrt
-    git clone -b master --depth 1 --single-branch https://github.com/immortalwrt/packages immortalwrt-packages
-    git clone -b master --depth 1 --single-branch https://github.com/immortalwrt/luci immortalwrt-luci
+    git clone -b master --single-branch https://github.com/cxcl20057/immortalwrt immortalwrt
+    git clone -b master --depth 1 --single-branch https://github.com/cxcl20057/packages immortalwrt-packages
+    git clone -b master --depth 1 --single-branch https://github.com/cxcl20057/luci immortalwrt-luci
 }
 
 __init_build_env() {
